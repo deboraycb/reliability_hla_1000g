@@ -88,9 +88,9 @@ for(loc in c("A", "B", "C", "DRB1", "DQB1")) {
   consens <- hla_consensus(all_seqs, alleles, pattern = patt)
   
   # assign a name for the output matrix paste the locus name
-  assign(paste0("cons_seq_pag_", loc), consens)
+  assign(paste0("cons_seq_pierre_", loc), consens)
 }
 
 # save a list of output matrices
-save(list = ls()[grep("cons_seq_pag_", ls())],
-     file = "~/hla_tools/1kg/data/cons_seq_pag.rda")
+save(list = ls()[grep("cons_seq_pierre_", ls())],
+     file = "~/hla_tools/1kg/data/cons_seq_pierre.rda")
