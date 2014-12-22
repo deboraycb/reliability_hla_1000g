@@ -82,7 +82,7 @@ exars_hg19$C <- c(31239645:31239376,31239125:31238850)
 exars_hg19$DQB1 <- c(32632844:32632575)
 exars_hg19$DRB1 <- c(32552155:32551886)
 
-# write file with the names of all individuals in both Pierre's and 1000G data
+# write file with the names of all individuals in both PAG2014 and 1000G data
  write.table(pg$Subject, file = paste0(data_dir,
  "samples_overlap_kg_pag2014.txt"), quote = F, row.names = F, col.names = F)
 
