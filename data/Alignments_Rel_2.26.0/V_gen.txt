@@ -1,0 +1,144 @@
+HLADB-2.26.0-July 2009
+HLA-V Genomic Nucleotide Sequence Alignments
+Sequences Aligned: 17 July 2009
+Steven G. E. Marsh, Anthony Nolan Research Institute.
+
+                    5' UTR
+ gDNA               -500
+                    |
+ V*01010101         CCCTGGGGTG ATTTTTCTTC TAGAAGAGTC CACGGGGACA GGTAAGGAGT AGGAGGCAGG GAGTCCAGTT CTGGGACGGG GATTCCGTGA TGCAAAGTGA
+ V*01010102         ------A--- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ------A--- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               -400
+                    |
+ V*01010101         AGAGAGAGGG ACGGGGCCCA TTCCGAGGGT TTCTCCCTGG TTTCTCAGAC AGCTCCTGGG CCAAGACTCA GGGAAACATT GAGACAGAGC GCTTGGCACA
+ V*01010102         ---------A ---------- --T------- ---------- ---------- ---------- ---------. .------G-- ---------- ----------
+ V*01010103         ---------A ---------- --T------- ---------- ---------- ---------- ---------. .------G-- ---------- ----------
+
+
+ gDNA               -300
+                    |
+ V*01010101         GAAGTAGCGG GGTCAGGGCG AAGTCCCAGG GCCTCAGGCG TGGCTCTCAG GATCTCAGGC CCCAAAGGCG GTGTATGGAT TGGGGAGGCC CAGCGCTGGG
+ V*01010102         ---------- ---------- ---------- ---------A ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ---------- ---------- ---------- ---------A ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               -200
+                    |
+ V*01010101         CATTCCCCAT CTTTGCAGGG TTTCTCTTCT CCCTCTCCCA ACCTGTGTCG GGTCCTTCTT CCTGGGTACT CACCGGGCTG CCCCAGTTCT CACTCCCATT
+ V*01010102         G--------- --CC------ ---------- ---------- ---------- ---------- -----A---- ----A----- ---------- ----------
+ V*01010103         G--------- --CC------ ---------- ---------- ---------- ---------- -----A---- ----A----- ---------- ----------
+
+
+ gDNA               -100
+                    |
+ V*01010101         GAGTGTCGGG TTTCTAGAGA AGCCAATCAA TGTAGCCGCG GTCCCGGTTC TAAAGTTCCC ACGCACCCAC CGGGACTCCG ATTCTTCCCA GTCGCCGAGG
+ V*01010102         ---------- --C------- ---------- ---------- ---------- ---------- ---------- ---------- -----C---- ----------
+ V*01010103         ---------- --C------- ---------- ---------- ---------- ---------- ---------- ---------- -----C---- ----------
+
+                    | Exon 1                                                                   Exon 1 | Intron 1
+ gDNA               | 1                                                                               |       
+                    |                                                                                 |
+ V*01010101         | ATGGTGTCAT GGCGCCCCGA ACCCTGCTTC TGCTGCTCTC GGGGGCCCTG GTCCTGACCC AGACCTGGGC AG | GTGAGTGC GGGGTCGGGA GGGAAACGGC
+ V*01010102         | ---------- ---------- ---------- ---------- ---------- ---------- ---------- -- | -------- ---------- ----------
+ V*01010103         | ---------- ---------- ---------- ---------- ---------- ---------- ---------- -- | -------- ---------- ----------
+
+
+ gDNA               101
+                    |
+ V*01010101         GTCTGTGGGG AGTAGCTAGG GGCCTGCCCG GCGGGGGCGC AGGAACCCGG TTGCGGTGCC GGGAGGAGGG TCGGGAGGGT CTCAGCCCCC TCCTTGCTCC
+ V*01010102         C--------- ---------- ---------- ---------- ---------- ---------- ---------- -------A-- ---------- ----------
+ V*01010103         C--------- ---------- ---------- --------T- ---------- ---------- ---------- -------A-- ---------- ----------
+
+               Intron 1 | Exon 2
+ gDNA               201 | 
+                        |
+ V*01010101         CAG | GCTTCCA CTCCTTGAGG TATTTCCACA CCACCATGTC CCGGCCCGGC CGCGCGGATC CCCGCTTCCT CTCCGTGGGC GACGTGGACG ACACGCAGTG
+ V*01010102         --- | ------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         --- | ------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               301
+                    |
+ V*01010101         CGTGCGGCTC GACAGCGACG CCACGAGTCC CAGGATGGAG CCGCGGGCGC CGTGGATGGA GCAGGAGGGG CCGGAATATT GGGAAGAGGA GACAGGGACC
+ V*01010102         ---------- ---------- ---------- ---------- ---....... .......... ....------ ---------- ---------- ----------
+ V*01010103         ---------- ---------- ---------- ---------- ---....... .......... ....------ ---------- ---------- ----------
+
+                                                                                      Exon 2 | Intron 2
+ gDNA               401                                                                              |
+                    |                                                                                |
+ V*01010101         GCCAAGGCCA AAGCACAGTT TTACCGAGTG AACCTGCGGA CCCTGAGCGG CTACTACAAC CAGAGTGAGG CCT | GTGAGTG ACACCGGCCG GGGGCGCAGG
+ V*01010102         ---------- ---------- ---------- ---------- ---------- ---------- ---------- --- | ------- ---------- ---------A
+ V*01010103         ---------- ---------- ---------- ---------- ---------- ---------- ---------- --- | ------- ---------- ---------A
+
+
+ gDNA               501
+                    |
+ V*01010101         TCACTACCCC TCCACATCCC CCACGGACCG CCCGGGTCTC CCCGAGTCTC TGGGTCCGAG ATCCACGCCG AGGCAGCGGG ACCTGGAGAC CCTTGACCCG
+ V*01010102         ---------- --T------- ---------- ---------- ---------- ---------- ---------- ---------A ---------- ----T-----
+ V*01010103         ---------- --T------- ---------- ---------- ---------- ---------- ---------- ---------A ---------- ----T-----
+
+
+ gDNA               601
+                    |
+ V*01010101         GGAGAGGCCC AGGAGCCGTT ACCCGGTTTC ATTTTCAGCC AAAATCCCCG CAGGTTGGTC CTGGCGAGGG CGGGGCTCGG TGGGCGGGGC TGGCCGCGGG
+ V*01010102         ---------- ---------- ---------- ---------- ---------- ---------- ------G--- ---------- ---------- ----------
+ V*01010103         ---------- ---------- ---------- ---------- ---------- ---------- ------G--- ---------- ---------- ----------
+
+                        Intron 2 | Exon 3
+ gDNA               701          |
+                    |            |
+ V*01010101         GGCGGGGCCA G | GGTCTCACA CCCATCTAGA GGATGTCTGT CTGCGACGTG GGGTCGGACG GGCGCCTACT CCGCGGGTAT CACCAGCTTG CTTACGATGG
+ V*01010102         ---------- - | --------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ---------- - | --------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               801
+                    |
+ V*01010101         CAAGGATTAC ATCGTCCTGA ACGAGGACCT GTGCTCCTTG ACAGCCGCAG ACACGGCGGC TCAGATCACC CAGCTCAAGT GGGAGGCGGC CCGGGGGGCG
+ V*01010102         --------C- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         --------C- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+                     Exon 3 | 3' UTR
+ gDNA               901     |
+                    |       |
+ V*01010101         GAGGTTC | ATC CTCACAGGGA TAGGCACCTA TTAGATGTGG TGTGGTTTTC CTCTCTACTC TTAGACCCTC AGCCAGTATC ACTATTGGCA TTCCTGAGCC
+ V*01010102         ------- | --- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ------- | --- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               1001
+                    |
+ V*01010101         ACTGGCTCAG AATTTCAGTA CATTATCTGC CCGCGGGACA CACCTCAGAG GAAAGGGGAT GAAGCGTGGT CCATGA...CCAT GGCACCCCCT GGTCTTATCA
+ V*01010102         ---------- ---------- ---------- ---------- ---------- -G-------- ---------G ------TGA---- --A-T----- ----------
+ V*01010103         ---------- ---------- ---------- ---------- ---------- -G-------- ---------G ------TGA---- --A-T----- ----------
+
+
+ gDNA               1101
+                    |
+ V*01010101         CCACCTGCAC CTCCCAGGGG CTGCCAGCCA CACAGAGTCA TGGACAGGTC TCTACAGACA CAACTTAGTG CCAGCTTGGA TGAAACCCTC TGAGGAATGG
+ V*01010102         ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               1201
+                    |
+ V*01010101         GTGCCATCTT TCAGGATGTG GTGCATGTAT TGAATCAAAG ATGTCTCTAT AGTGCTGTGT TTACAGAAGG AAGAATACGT GGGTCCAAAA ACCAAGAAGT
+ V*01010102         C--------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         C--------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               1301
+                    |
+ V*01010101         AGAAGCAGGT GTGGCTCCAT ATCTAAACCC TTATATTCAC CTTCAGGGTG ATTTTGCACT TCTCATCTCC AATATCTGGG CTCTGTAGGG GAGGAGGTCC
+ V*01010102         ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+ V*01010103         ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+
+
+ gDNA               1401
+                    |
+ V*01010101         TGG
+ V*01010102         ---
+ V*01010103         ---

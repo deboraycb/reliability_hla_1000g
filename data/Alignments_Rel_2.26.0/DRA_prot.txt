@@ -1,0 +1,25 @@
+HLADB-2.26.0-Jul 2009
+HLA-DRA Protein Sequence Alignments
+Sequences Aligned: 17 July 2009
+Steven G. E. Marsh, Anthony Nolan Research Institute.
+
+
+Prot. Pos.        -30        -20        -10        
+DRA*0101               MAISG VPVLGFFIIA VLMSAQESWA 
+DRA*010201             ***** ********** ********** 
+DRA*010202             ----- ---------- ---------- 
+
+Prot. Pos.                10         20         30         40         50         60         70         80         90        100 
+DRA*0101          IKEEHVIIQA EFYLNPDQSG EFMFDFDGDE IFHVDMAKKE TVWRLEEFGR FASFEAQGAL ANIAVDKANL EIMTKRSNYT PITNVPPEVT VLTNSPVELR 
+DRA*010201        ***------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- 
+DRA*010202        ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- 
+
+Prot. Pos.               110        120        130        140        150        160        170        180        190        200 
+DRA*0101          EPNVLICFID KFTPPVVNVT WLRNGKPVTT GVSETVFLPR EDHLFRKFHY LPFLPSTEDV YDCRVEHWGL DEPLLKHWEF DAPSPLPETT ENVVCALGLT 
+DRA*010201        ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- 
+DRA*010202        ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- 
+
+Prot. Pos.               210        220        230        
+DRA*0101          VGLVGIIIGT IFIIKGVRKS NAAERRGPL        
+DRA*010201        ---------- ------L--- ---------        
+DRA*010202        ---------- ------L--- ---------        

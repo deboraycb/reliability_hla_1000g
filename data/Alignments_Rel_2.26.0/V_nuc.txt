@@ -1,0 +1,53 @@
+HLADB-2.26.0-Jul 2009
+HLA-V Nucleotide Sequence Alignments
+Sequences Aligned: 17 July 2009
+Steven G. E. Marsh, Anthony Nolan Research Institute.
+
+
+Nuc. Pos.                                              30                                      60                     
+Prot. Pos.                        -20                                     -10                                    -1  1   
+V*01010101        ATG GTG TCA TGG CGC CCC GAA CCC TGC TTC TGC TGC TCT CGG GGG CCC TGG TCC TGA CCC AGA CCT GGG CAG |  GCT 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- |  --- 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- |  --- 
+
+Nuc. Pos.                          90                                     120                                     150 
+Prot. Pos.                                        10                                      20                          
+V*01010101        TCC ACT CCT TGA GGT ATT TCC ACA CCA CCA TGT CCC GGC CCG GCC GCG CGG ATC CCC GCT TCC TCT CCG TGG GCG 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+Nuc. Pos.                                             180                                     210                     
+Prot. Pos.                    30                                      40                                      50      
+V*01010101        ACG TGG ACG ACA CGC AGT GCG TGC GGC TCG ACA GCG ACG CCA CGA GTC CCA GGA TGG AGC CGC GGG CGC CGT GGA 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --. ... ... ... ... 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --. ... ... ... ... 
+
+Nuc. Pos.                         240                                     270                                     300 
+Prot. Pos.                                        60                                      70                          
+V*01010101        TGG AGC AGG AGG GGC CGG AAT ATT GGG AAG AGG AGA CAG GGA CCG CCA AGG CCA AAG CAC AGT TTT ACC GAG TGA 
+V*01010102        ... ... ..- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+V*01010103        ... ... ..- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+Nuc. Pos.                                             330                                     360                     
+Prot. Pos.                    80                                         90                                      100     
+V*01010101        ACC TGC GGA CCC TGA GCG GCT ACT ACA ACC AGA GTG AGG CCT |  GGT CTC ACA CCC ATC TAG AGG ATG TCT GTC TGC 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- |  --- --- --- --- --- --- --- --- --- --- --- 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- |  --- --- --- --- --- --- --- --- --- --- --- 
+
+Nuc. Pos.                         390                                     420                                     450 
+Prot. Pos.                                        110                                     120                         
+V*01010101        GAC GTG GGG TCG GAC GGG CGC CTA CTC CGC GGG TAT CAC CAG CTT GCT TAC GAT GGC AAG GAT TAC ATC GTC CTG 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -C- --- --- --- 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -C- --- --- --- 
+
+Nuc. Pos.                                             480                                     510                     
+Prot. Pos.                    130                                     140                                     150     
+V*01010101        AAC GAG GAC CTG TGC TCC TTG ACA GCC GCA GAC ACG GCG GCT CAG ATC ACC CAG CTC AAG TGG GAG GCG GCC CGG 
+V*01010102        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+V*01010103        --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+Nuc. Pos.                                                                                                             
+Prot. Pos.                        
+V*01010101        GGG GCG GAG GTT                      
+V*01010102        --- --- --- ---                      
+V*01010103        --- --- --- ---                      
