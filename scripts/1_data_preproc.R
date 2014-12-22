@@ -1,4 +1,5 @@
 ################################################################################
+
 #
 # 1_data_preproc.R
 #
@@ -12,7 +13,7 @@
 # 1. Organizing PAG2014 dataset
 
 # data directory
-data_dir <- "data/"
+data_dir <- "../data/"
 
 # PAG2014 data
 pg <- read.table(paste0(data_dir, "mhc.tab"), sep = "\t",
@@ -50,19 +51,19 @@ pg <- pg[pg$Subject %in% indkg$IND, ]
 load(paste0(data_dir, "cons_seq_pag.rda"))
 
 # Organize consensus sequences in list
-cons_seq_pierre <- list()
+cons_seq_pag <- list()
 loci <- c("A" , "B" , "C" , "DQB1" , "DRB1")
 for(l in loci){
-    cons_seq_pierre[[l]] <- get(paste0("cons_seq_pierre_",l))
+    cons_seq_pag[[l]] <- get(paste0("cons_seq_pag_",l))
 }
 
 # Pierre object for comparison with 1000G:
 pag2014 <- list()
 loci <- c("A" , "B" , "C" , "DQB1" , "DRB1")
 for(l in loci){
-    pag2014[[l]] <- sapply(pier[,paste0("HLA.", l, ".", 1:2)], function(x)
-                          cons_seq_pierre[[l]][x, ], simplify = "array")
-    rownames(pag2014[[l]]) <- pier$Subject
+    pag2014[[l]] <- sapply(pg[,paste0("HLA.", l, ".", 1:2)], function(x)
+                          cons_seq_pag[[l]][x, ], simplify = "array")
+    rownames(pag2014[[l]]) <- pg$Subject
     pag2014[[l]] <- pag2014[[l]][order(rownames(pag2014[[l]])),,]
     # remove ambiguities with /* or */
     pag2014[[l]] <- gsub("/\\*", "", pag2014[[l]])
@@ -82,16 +83,22 @@ exars_hg19$DQB1 <- c(32632844:32632575)
 exars_hg19$DRB1 <- c(32552155:32551886)
 
 # write file with the names of all individuals in both Pierre's and 1000G data
-# write.table(pier$Subject, file = paste0(data_dir,
-# "samples_overlap_kg_pag2014.txt"), quote = F, row.names = F, col.names = F)
+ write.table(pg$Subject, file = paste0(data_dir,
+ "samples_overlap_kg_pag2014.txt"), quote = F, row.names = F, col.names = F)
 
 # Then use vcftools to extract those individuals and positions in ARS exons from
-# chr6 vcf.gz file in pedmap format as in:
-# vcftools 
-# --gzvcf ~/hla_tools/1kg/data/phase1_chr/ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
-# --keep ~/hla_tools/1kg/data/samples_overlap_kg_pag2014.txt
-# --out ~/hla_tools/1kg/data/a_ars_pag2014ind
-# --plink --remove-indels --bed ~/hla_tools/1kg/data/a_ex23.bed
+# chr6 vcf.gz file in pedmap format:
+download.file("ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz",
+              destfile = data_dir)
+
+for (l in loci){
+    system(paste0("vcftools --gzvcf ", data_dir,
+              "ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz",
+              " --keep ", data_dir, "samples_overlap_kg_pag2014.txt",
+              " --out ", data_dir, tolower(l), "_ars_pag2014ind",
+              " --plink --remove-indels --bed ", data_dir, tolower(l),
+              "_ex23.bed"))
+}
 
 #...and read those files here:
 
