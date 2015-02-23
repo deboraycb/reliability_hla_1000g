@@ -2,13 +2,16 @@
 
 # Get sequences of HLA alleles of the reference human genome
 
+# data directory
+data_dir <- "../data/"
+
 # check if alignment data exists in directory
 # if not, download it.
-if (!file.exists("Alignments Rel_3160")) {
-    download.file("ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/Alignments_Rel_3160.zip",
-		  destfile="alignments.zip")
-    unzip("alignments.zip")
-    file.remove("alignments.zip")
+if (!file.exists(paste0(data_dir,"Alignments Rel_3160"))) {
+    download.file("ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/previous_releases/Alignments_Rel_3160.zip",
+		  destfile = paste0(data_dir, "alignments.zip"))
+    unzip(paste0(data_dir, "alignments.zip"))
+    file.remove(paste0(data_dir, "alignments.zip"))
 }
 
 refseq=list()
