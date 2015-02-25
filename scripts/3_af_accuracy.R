@@ -12,8 +12,8 @@ source("2_genotype_mismatch.R")
 #-------------------------------------------------------------------------------
 # 1. Frequency of REF allele in 1000G and in PAG2014
 
-# Load RData with reference sequences for ARS exons
-load("hla_ref.RData")
+# source script to get sequences of HLA alleles of the reference human genome
+source("hla_ref.R")
 
 # Function to count number of ref alleles in 1000G and PAG2014 data
 countref <- function(kgl, pagl, refl, pop){
@@ -32,11 +32,11 @@ countref <- function(kgl, pagl, refl, pop){
 
 # List of individuals in each population
 pop <- list()
-for (p in unique(pier$Population)){
+for (p in unique(pg$Population)){
     pshort <- substr(p, 16, 18)
-    pop[[pshort]] <- pier$Subject[pier$Population == p]
+    pop[[pshort]] <- pg$Subject[pg$Population == p]
 }
-pop <- c(list(global = pier$Subject), pop)
+pop <- c(list(global = pg$Subject), pop)
 
 # lists of counts and frequency of reference allele per locus per population
 nref <- list()
