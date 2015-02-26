@@ -29,13 +29,6 @@ pg[pg=="14XX"] <- "14"
 pg$Subject <- gsub("_.", "", pg$Subject)
 
 # get list of all 1000G individuals
-if (! file.exists(paste0(data_dir,
-                         "phase1_integrated_calls.20101123.ALL.panel"))) {
-    download.file("ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/phase1_integrated_calls.20101123.ALL.panel",
-                  destfile = paste0(data_dir,
-                                "phase1_integrated_calls.20101123.ALL.panel"))
-}
-
 indkg <- read.table(paste0(data_dir,
                             "phase1_integrated_calls.20101123.ALL.panel"),
                      header = F, fill = T, as.is=T, col.names = c("IND", "POP",
