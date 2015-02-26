@@ -3,6 +3,10 @@
 IMGT alignment data version 2.26.0
 Acquired from ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/previous_releases/prev_nomenclature/Alignments_Rel_2.26.0.zip
 
+### ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+1000 Genomes Project phase 1 version 3 VCF for chromosome 6
+Acquired from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/ALL.chr6.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+
 ### Allelelist_history.txt
 
 IMGT Allele names history file
